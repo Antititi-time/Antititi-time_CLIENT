@@ -131,7 +131,7 @@ const StSocialLoginButton = styled.div`
 const StSlider = styled(Slider)`
   display: flex;
   width: 100vw;
-  height: 100vh;
+  height: 100dvh;
   background-color: ${COLOR.IVORY_1};
   .slick-prev::before,
   .slick-next::before {
