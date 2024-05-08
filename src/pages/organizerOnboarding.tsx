@@ -133,8 +133,8 @@ const StSlider = styled(Slider)`
   flex-direction: center;
   align-items: center;
   width: 100vw;
-  min-height: calc(var(--vh) * 100);
-  background-color: ${COLOR.IVORY_1};
+  height: 35rem;
+  /* background-color: ${COLOR.IVORY_1}; */
   padding-top: 12.2rem;
   .slick-prev::before,
   .slick-next::before {
@@ -227,7 +227,8 @@ const StFlex = styled.div`
 
 const StOnboardingWrapper = styled.div`
   overflow: hidden;
-  height: 100vh;
+  height: 35rem;
+  margin-top: 14rem; /* 임의 지정 */
   .organizerEmoticon {
     position: relative;
     width: 35rem;
@@ -239,9 +240,6 @@ const StOnboardingWrapper = styled.div`
       height: 26rem;
       margin: -4rem 0 -8rem 0;
     }
-  }
-  @media (min-width: 766px) {
-    height: 72rem;
   }
 `;
 
