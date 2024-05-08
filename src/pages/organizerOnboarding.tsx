@@ -130,12 +130,9 @@ const StSocialLoginButton = styled.div`
 
 const StSlider = styled(Slider)`
   display: flex;
-  flex-direction: center;
-  align-items: center;
   width: 100vw;
-  height: 35rem;
-  /* background-color: ${COLOR.IVORY_1}; */
-  padding-top: 12.2rem;
+  height: 100vh;
+  background-color: ${COLOR.IVORY_1};
   .slick-prev::before,
   .slick-next::before {
     opacity: 0;
@@ -227,8 +224,8 @@ const StFlex = styled.div`
 
 const StOnboardingWrapper = styled.div`
   overflow: hidden;
-  height: 35rem;
-  margin-top: 14rem; /* 임의 지정 */
+  height: 100%;
+  margin-top: 12.2rem;
   .organizerEmoticon {
     position: relative;
     width: 35rem;
@@ -238,7 +235,6 @@ const StOnboardingWrapper = styled.div`
       position: relative;
       width: 36rem;
       height: 26rem;
-      margin: -4rem 0 -8rem 0;
     }
   }
 `;
