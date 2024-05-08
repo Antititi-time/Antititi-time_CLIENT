@@ -97,7 +97,7 @@ const StSkipButton = styled.div`
   bottom: 18rem;
   top: 48rem;
   left: 50%;
-  margin-top: 11.9rem;
+  margin-top: 10rem;
   transform: translate(-50%);
 
   @media (max-height: 750px) and (max-width: 766px) {
@@ -116,7 +116,7 @@ const StSocialLoginButton = styled.div`
   position: absolute;
   top: 42rem;
   left: 50%;
-  margin-top: 11.9rem;
+  margin-top: 10rem;
   text-align: center;
   transform: translate(-50%);
   @media (max-height: 750px) and (max-width: 766px) {
@@ -135,6 +135,7 @@ const StSlider = styled(Slider)`
   width: 100vw;
   min-height: calc(var(--vh) * 100);
   background-color: ${COLOR.IVORY_1};
+  padding-top: 12.2rem;
   .slick-prev::before,
   .slick-next::before {
     opacity: 0;
@@ -206,8 +207,6 @@ const StSlider = styled(Slider)`
 `;
 
 const StPageText = styled.p`
-  position: absolute;
-  top: 32rem;
   text-align: center;
   ${FONT_STYLES.NEXON_B_20};
   white-space: pre-wrap;
@@ -220,29 +219,17 @@ const StPageText = styled.p`
 
 const StFlex = styled.div`
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
   align-content: center;
   justify-content: center;
   align-items: center;
-  position: relative;
-  top: -20.7rem;
-  @media (min-width: 766px) {
-    top: -18.3rem;
-  }
 `;
 
 const StOnboardingWrapper = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  flex-direction: column;
   overflow: hidden;
   height: 100vh;
   .organizerEmoticon {
     position: relative;
-    top: 44rem;
     width: 35rem;
     height: 25rem;
 
